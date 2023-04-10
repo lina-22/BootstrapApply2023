@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-image: url("img/school.jpg");
+  font-family: "Handlee", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -12,4 +13,45 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header start */
+header {
+  background-image: url("img/school.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbarhd {
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+  color: aliceblue;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: auto;
+}
+
+.nav-link {
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  background: blue;
+  color: white;
+  transform: scale(1.1);
+}
+
+.banner-container {
+  height: 100vh;
 }
